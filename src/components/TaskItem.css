@@ -1,0 +1,28 @@
+.task-item {
+  border: 1px solid var(--dark-gray);
+  padding: 1rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    'desc desc'
+    'date date';
+  row-gap: 0.5rem;
+}
+
+.task-desc {
+  grid-area: desc;
+}
+
+.task-date {
+  grid-area: date;
+}
+
+.task-status {
+  grid-area: status;
+}
+
+.task-close {
+  grid-column: 2/3;
+  grid-row: 1/-1;
+  margin-left: auto;
+}

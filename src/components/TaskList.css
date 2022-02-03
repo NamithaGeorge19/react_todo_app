@@ -1,0 +1,7 @@
+.task-list {
+  padding-top: 2rem;
+  display: grid;
+  gap: 0.5rem;
+  width: 60%;
+  margin: auto;
+}

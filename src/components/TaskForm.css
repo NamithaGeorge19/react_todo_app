@@ -1,0 +1,27 @@
+.form-data {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 60%;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  border: 1px solid var(--dark-gray);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--off-white);
+  border: none;
+  padding: 0.8rem 5rem;
+}
+
+textarea,
+input {
+  border: 0.2px solid var(--dark-gray);
+}
+
+textarea:focus,
+input:focus {
+  border: 0.2px solid var(--primary-color);
+}
